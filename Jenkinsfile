@@ -19,4 +19,9 @@ pipeline {
       }
     }
   }
+  post {
+    always {
+      echo " trigger always"
+    }
+  }
 }
